@@ -82,9 +82,7 @@ newArray.flatten
 end
 
 def all_supplies_in_holidays(holiday_hash)
-puts "Test"
 holiday_hash.each do |season,value|
-
   puts "#{season.capitalize}:"
   value.each do |holiday,value|
     a = holiday.to_s
