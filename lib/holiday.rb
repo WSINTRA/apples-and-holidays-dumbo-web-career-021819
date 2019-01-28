@@ -93,7 +93,8 @@ holiday_hash.each do |season,value|
     b.each do |words|
       wordsArray << words.capitalize
     end
-    print "#{wordsArray} wordsArray"
+    a = wordsArray.join(' ')
+    print "#{a} wordsArray"
     #b = a.split.each{|i| i.capitalize!}.join(' ')
   #  a = b.join(" ").capitalize
     print "  #{b}:"
