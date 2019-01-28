@@ -90,7 +90,7 @@ holiday_hash.each do |season,value|
     a = holiday.to_s
     b = a.split("_")
     b = a.split.each{|i| i.capitalize!}.join(' ')
-    a = b.join(" ").capitalize
+    #a = b.join(" ").capitalize
     print "  #{b}:"
     value.each_with_index do |final, index|
       if index == value.size - 1
